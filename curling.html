@@ -1,0 +1,89 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SpoddyCoder | &#8230;feed the geek</title>
+    <link href='https://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" media="all" href="theme/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+    <script src="theme/js/modernizr-2.5.3.min.js"></script>
+    <!--[if lt IE 9]>
+        <script src="theme/js/html5.js" type="text/javascript"></script>
+    <![endif]-->
+    <link rel='dns-prefetch' href='//s.w.org' />
+    <link rel="canonical" href="https://spoddycoder.com/curling.html" />
+    <link rel='shortlink' href='https://spoddycoder.com/curling.html' />
+</head>
+<body class="spoddy_experiment-template-default single single-spoddy_experiment postid-133"></body>
+	<header>
+		<div id="header-inner">
+			<a href="index.html">
+				<span id="header-logo">
+					<img id="header-logo-image" src="theme/images/logo.png" alt="spoddycoder glasses" />
+					<span id="header-logo-text"><h1><span class="spoddy">Spoddy</span><span class="coder">Coder</span> <span class="feedthegeek">&hellip;feed the geek</span></h1></span>
+				</span>
+			</a>
+			<div class="menu"><ul>
+                <li class="page_item page-item-5"><a href="index.html" aria-current="page">Home</a></li>
+                <li class="page_item page-item-7"><a href="blog.html">Blog</a></li>
+                <li class="page_item page-item-9"><a href="music.html">Music</a></li>
+                <li class="page_item page-item-11"><a href="random.html">Random</a></li>
+            </ul></div>
+		</div>
+	</header>
+	
+	<div role="main" id="content">
+        <section class="experiment-description" id="experiment-description-curling">		
+            <h2>Curling</h2>
+            <p>This is fugly. But if you can wade through the interface, underneath is a suprisingly accurate model of the game of <a title="Curling" href="https://en.wikipedia.org/wiki/Curling" target="_blank">curling</a> including the free guard rule. Thanks to <a href="http://www.studioanjou.com">Angie</a> for some of the graphics, any unfinished mess is my fault, not hers! Look out for this getting a revisit in the run up to the 2014 Winter Olympics. Instructions below the game.</p>
+            <p class="experiment-technologies">Tech: ActionScript 3, Flash, Stratus Peer to Peer</p>
+        </section>
+        <script type="text/javascript" src="/theme/js/swfobject/swfobject.js"></script>
+        <script type="text/javascript">
+            swfobject.registerObject("curling-swf", "9.0.0", "expressInstall.swf");
+        </script>
+        <div id="curling-div">
+            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="800" height="750" id="curling-swf">
+                <param name="movie" value="theme/expts/curling/Curling.swf" />
+                <param name="quality" value="best" />
+                <param name="wmode" value="opaque" />
+                <!--[if !IE]>-->
+                <object type="application/x-shockwave-flash" data="theme/expts/curling/Curling.swf" width="800" height="750">
+                    <param name="quality" value="best" />
+                    <param name="wmode" value="opaque" />
+                <!--<![endif]-->
+                    <a href="https://www.adobe.com/go/getflashplayer">
+                        <img src="https://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+                    </a>
+                <!--[if !IE]>-->
+                </object>
+                <!--<![endif]-->
+            </object>
+        </div>
+        <h2>Instructions</h2>
+        <h4>Starting a game</h4>
+        <p>Enter your name on the first screen and select either <strong>Practice</strong> or <strong>Join</strong> another online player.</p>
+        <p><strong>For online play:</strong> send your NearID (the long number in the 2nd box) to a friend and have them send theirs back. Enter your friends NearID into the third box and click Join.</p>
+        <h4>Playing the game</h4>
+        <p><Strong>Aim: </Strong>Grab the brush in the center of the house to aim the stone. How wide you need to aim is down to how hard you send the stone down, faster stones curl much less. You will soon learn that with a good house weight, aiming just inside of the red ring will see the stone swing back to the middle of the house.</p>
+        <p><strong>Spin: </strong>Press the right blue button to toggle the spin, which changes the direction of the curl.</p>
+        <p><strong>Power: </strong>Press and hold the left blue button to start the power guage, release to start your stone sliding. The higher the guage the faster you launch the stone down the ice sheet. The power guage is deliberately left unmarked, but you will quickly develop a feel for good house weight (just over half way).</p>
+        <p><strong>Sweeping: </strong>Move the middle blue slider up and down as the the stone is sliding to increase or decrease the amount of sweeping. The harder you sweep the further the stone will go and the less it will curl. Sweeping is where the true skill of the game lies.</p>
+    </div>
+	<footer>
+		<p><span class="spoddy">Spoddy</span></span><span class="coder">Coder</span>.com &copy;2021 Paul Fernihough</p>
+	</footer>
+	
+	<script>
+		var _gaq=[['_setAccount','UA-24402222-1'],['_trackPageview']];
+		(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+		g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+		s.parentNode.insertBefore(g,s)}(document,'script'));
+	</script>
+	
+</body>
+</html>

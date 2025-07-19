@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<MassLevel>
+  <LevelName>Level Seven</LevelName>
+  <LevelIntroText>Lies! This is not easy.</LevelIntroText>
+  <LevelSuccessText>OK then, it is easy.</LevelSuccessText>
+  <LevelTimer>1000</LevelTimer>
+  <Fuel>7</Fuel>
+  <AntiGravityBrakeEnabled>true</AntiGravityBrakeEnabled>
+  <StartingPowerUp>none</StartingPowerUp>
+  <Ship index="0" mass="0.1" type="98" xp="1656.1563500000002" yp="591.0411500000001" xd="0" yd="-1" depth="39"/>
+  <Wormhole index="1" mass="0.1" fixed="true" particle="false" xp="1030.6395500000003" yp="-71.85514999999992" xd="0" yd="0" depth="0"/>
+  <FixedMass index="2" mass="250" type="11" xp="-34.932" yp="-142.639" depth="2"/>
+  <FixedMass index="3" mass="250" type="11" xp="101.885" yp="116.44" depth="3"/>
+  <ParticleMass index="4" radius="27.278989310334048" type="19" xp="-104.796" yp="-273.634" xd="1.4846100000000002" yd="-0.6418754999999996" depth="1"/>
+  <ParticleMass index="5" radius="21.487279288627025" type="19" xp="-154.28300000000002" yp="-37.843" xd="1.19351" yd="1.07707" depth="9"/>
+  <ParticleMass index="6" radius="50" type="19" xp="209.592" yp="186.304" xd="1.19351" yd="-1.01885" depth="7"/>
+  <ParticleMass index="7" radius="31.983039051502693" type="20" xp="285.278" yp="-11.644" xd="-1.19351" yd="-0.7568600000000001" depth="4"/>
+  <ParticleMass index="8" radius="50" type="20" xp="104.796" yp="-200.859" xd="0.37843" yd="1.36817" depth="5"/>
+  <ParticleMass index="9" radius="13.288" type="20" xp="-93.152" yp="72.775" xd="0.11644" yd="1.97948" depth="6"/>
+  <ParticleMass index="10" radius="25.053081818864374" type="21" xp="75.686" yp="-23.288" xd="-1.6301600000000005" yd="0.17466" depth="8"/>
+  <BarrierOrb index="11" linkedTo="12" type="7" xp="-591.7933499999999" yp="44.06480000000005" depth="11"/>
+  <BarrierOrb index="12" linkedTo="13" type="7" xp="-503.4098499999999" yp="-77.03939999999992" depth="12"/>
+  <BarrierOrb index="13" linkedTo="18" type="7" xp="341.31075000000004" yp="-320" depth="13"/>
+  <NonMass index="14" radius="181.84786900562645" type="16" xp="-449.4395" yp="439.4728500000001" depth="10"/>
+  <NonMass index="15" radius="173.48538942651538" type="16" xp="-764.7993499999999" yp="379.86100000000005" depth="23"/>
+  <NonMass index="16" radius="220.79495021555388" type="16" xp="-86.87909999999988" yp="473.50990000000013" depth="22"/>
+  <NonMass index="17" radius="253.23231567761587" type="16" xp="343.49800000000005" yp="477.40400000000005" depth="16"/>
+  <BarrierOrb index="18" linkedTo="19" type="7" xp="653.8498500000002" yp="-317.93145" depth="18"/>
+  <BarrierOrb index="19" linkedTo="20" type="7" xp="978.096" yp="-209.691" depth="19"/>
+  <BarrierOrb index="20" linkedTo="21" type="7" xp="1129.468" yp="-110.71699999999998" depth="20"/>
+  <BarrierOrb index="21" linkedTo="-1" type="7" xp="1210.976" yp="20.27800000000002" depth="21"/>
+  <NonMass index="22" radius="446.9806441458982" type="16" xp="1008.9667000000002" yp="445.06805" depth="14"/>
+  <NonMass index="23" radius="204.50892432017838" type="16" xp="557.7563000000002" yp="20.558550000000082" depth="15"/>
+  <BarrierOrb index="24" linkedTo="11" type="7" xp="-469.37279999999987" yp="141.4747000000002" depth="24"/>
+  <NonMass index="25" radius="122.87166420318889" type="16" xp="-1003.99895" yp="247.5349000000001" depth="17"/>
+  <BarrierOrb index="26" linkedTo="-1" type="7" xp="-1128.8641499999999" yp="-30.21494999999993" depth="25"/>
+  <BarrierOrb index="27" linkedTo="26" type="7" xp="-846.225" yp="-229.54794999999996" depth="26"/>
+  <BarrierOrb index="28" linkedTo="27" type="7" xp="-654.414" yp="-297.24594999999994" depth="27"/>
+  <BarrierOrb index="29" linkedTo="30" type="7" xp="1827.846" yp="199.20605000000012" depth="28"/>
+  <BarrierOrb index="30" linkedTo="-1" type="7" xp="1515.683" yp="-289.72394999999995" depth="29"/>
+  <BarrierOrb index="31" linkedTo="32" type="7" xp="759.7220000000001" yp="-571.79895" depth="30"/>
+  <BarrierOrb index="32" linkedTo="-1" type="7" xp="409.949" yp="-564.2769499999999" depth="31"/>
+  <NonMass index="33" radius="91.26802419816435" type="16" xp="-1105.92205" yp="82.42700000000002" depth="32"/>
+  <BarrierOrb index="34" linkedTo="35" type="7" xp="97.786" yp="-380.176" depth="33"/>
+  <BarrierOrb index="35" linkedTo="-1" type="7" xp="-285.836" yp="-271.10699999999997" depth="34"/>
+  <NonMass index="36" radius="188.800159549238" type="1" xp="184.28900000000002" yp="-587.2190499999999" depth="35"/>
+  <NonMass index="37" radius="193.12882108898285" type="1" xp="-462.603" yp="-417.9740499999999" depth="36"/>
+  <BarrierOrb index="38" linkedTo="30" type="7" xp="1214.803" yp="-493.19404999999995" depth="37"/>
+  <NonMass index="39" radius="182.1425663667476" type="1" xp="1007.9480000000001" yp="-575.9360499999999" depth="38"/>
+</MassLevel>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<MassLevel>
+  <LevelName>Level Three</LevelName>
+  <LevelSuccessText>Well done.</LevelSuccessText>
+  <LevelTimer>120</LevelTimer>
+  <Fuel>6</Fuel>
+  <AntiGravityBrakeEnabled>true</AntiGravityBrakeEnabled>
+  <StartingPowerUp>none</StartingPowerUp>
+  <Ship index="0" mass="0.1" type="98" xp="-703.56065" yp="-22.87269999999998" xd="0.7744299999999998" yd="0.008104499999999796" depth="12"/>
+  <Wormhole index="1" mass="0.1" fixed="false" particle="false" xp="188.29455000000013" yp="65.7365" xd="-0.46826000000000007" yd="2.0171200000000002" depth="0"/>
+  <BarrierOrb index="2" linkedTo="3" type="7" xp="-163.44075" yp="-69.69869999999999" depth="1"/>
+  <BarrierOrb index="3" linkedTo="4" type="7" xp="9.365200000000083" yp="-140.20785" depth="2"/>
+  <BarrierOrb index="4" linkedTo="5" type="7" xp="179.5597000000001" yp="-114.36350000000002" depth="3"/>
+  <BarrierOrb index="5" linkedTo="9" type="7" xp="259.07385000000005" yp="14.948300000000021" depth="4"/>
+  <BarrierOrb index="6" linkedTo="10" type="7" xp="-174.697" yp="57.632000000000005" depth="5"/>
+  <BarrierOrb index="7" linkedTo="6" type="7" xp="-52.229000000000006" yp="171.09500000000003" depth="6"/>
+  <BarrierOrb index="8" linkedTo="7" type="7" xp="104.45800000000001" yp="203.513" depth="7"/>
+  <BarrierOrb index="9" linkedTo="8" type="7" xp="226.92600000000002" yp="156.687" depth="8"/>
+  <BarrierOrb index="10" linkedTo="-1" type="7" xp="-562.0020499999999" yp="104.45800000000001" depth="9"/>
+  <BarrierOrb index="11" linkedTo="2" type="7" xp="-545.79305" yp="-136.876" depth="10"/>
+  <FixedMass index="12" mass="330.71098718000667" type="11" xp="70.239" yp="32.418000000000006" depth="11"/>
+</MassLevel>

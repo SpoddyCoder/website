@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<MassLevel>
+  <LevelName>Level Two</LevelName>
+  <LevelSuccessText>Sneaky! Not a hard level but you need to have quick reactions. You'll notice the gravity of the large free mass didn't really pull you too much. These Gas Giants are not very dense, so they have less mass for their size compared to Yellow Dwarfs.</LevelSuccessText>
+  <LevelTimer>30</LevelTimer>
+  <Fuel>100</Fuel>
+  <AntiGravityBrakeEnabled>true</AntiGravityBrakeEnabled>
+  <StartingPowerUp>none</StartingPowerUp>
+  <Ship index="0" mass="0.1" type="98" xp="-792.396" yp="224.112" xd="0" yd="0" depth="2"/>
+  <Wormhole index="1" mass="0.1" fixed="false" particle="false" xp="347.9739000000002" yp="-32.11605000000002" xd="-1.2406200000000023" yd="1.1405700000000012" depth="0"/>
+  <FreeMass index="2" mass="959.1958569765031" type="14" xp="70.035" yp="-248.124" xd="-6.94347" yd="3.72186" depth="1"/>
+</MassLevel>

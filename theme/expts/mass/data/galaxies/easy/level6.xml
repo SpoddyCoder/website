@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<MassLevel>
+  <LevelName>Level Six</LevelName>
+  <LevelIntroText>Just a few more levels to go</LevelIntroText>
+  <LevelSuccessText>You the man. Or woman.</LevelSuccessText>
+  <LevelTimer>30</LevelTimer>
+  <Fuel>10</Fuel>
+  <AntiGravityBrakeEnabled>true</AntiGravityBrakeEnabled>
+  <StartingPowerUp>none</StartingPowerUp>
+  <Ship index="0" mass="0.1" type="98" xp="-1939.2002999999997" yp="-591.48315" xd="0" yd="0" depth="18"/>
+  <Wormhole index="1" mass="0.1" fixed="false" particle="false" xp="-1669.7028999999998" yp="-719.36635" xd="4.508980000000001" yd="-1.3803" depth="0"/>
+  <FixedMass index="2" mass="250" type="11" xp="-1228.4669999999999" yp="-731.559" depth="1"/>
+  <FixedMass index="3" mass="1250" type="10" xp="-478.50399999999996" yp="-634.938" depth="2"/>
+  <FixedMass index="4" mass="250" type="11" xp="-241.88004999999967" yp="59.69365000000023" depth="3"/>
+  <FixedMass index="5" mass="250" type="11" xp="146.99130000000048" yp="1594.1309999999999" depth="4"/>
+  <BarrierOrb index="6" linkedTo="10" type="7" xp="-310.545" yp="69.01" depth="5"/>
+  <BarrierOrb index="7" linkedTo="9" type="7" xp="1601.3223500000004" yp="7888.065550000001" depth="6"/>
+  <BarrierOrb index="8" linkedTo="16" type="7" xp="72.76115000000019" yp="1619.6626999999999" depth="7"/>
+  <BarrierOrb index="9" linkedTo="8" type="7" xp="-1153.2910499999994" yp="7889.898700000001" depth="8"/>
+  <BarrierOrb index="10" linkedTo="7" type="7" xp="324.347" yp="1525.1209999999999" depth="9"/>
+  <BarrierOrb index="11" linkedTo="6" type="7" xp="-117.317" yp="-351.95099999999996" depth="10"/>
+  <BarrierOrb index="12" linkedTo="11" type="7" xp="-365.753" yp="-869.526" depth="11"/>
+  <BarrierOrb index="13" linkedTo="12" type="7" xp="-772.912" yp="-993.744" depth="12"/>
+  <BarrierOrb index="14" linkedTo="13" type="7" xp="-1304.289" yp="-1028.249" depth="13"/>
+  <BarrierOrb index="15" linkedTo="14" type="7" xp="-2070.6450499999996" yp="-766.011" depth="14"/>
+  <BarrierOrb index="16" linkedTo="17" type="7" xp="-839.8833499999994" yp="-485.1209000000001" depth="15"/>
+  <BarrierOrb index="17" linkedTo="18" type="7" xp="-1200.083" yp="-603.0859999999999" depth="16"/>
+  <BarrierOrb index="18" linkedTo="-1" type="7" xp="-1864.8195499999997" yp="-376.442" depth="17"/>
+</MassLevel>

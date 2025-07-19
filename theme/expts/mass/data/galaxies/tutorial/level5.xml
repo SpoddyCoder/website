@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<MassLevel>
+  <LevelName>Dark Matter</LevelName>
+  <LevelTimer>120</LevelTimer>
+  <Fuel>50</Fuel>
+  <LivesAdded>0</LivesAdded>
+  <LevelIntroText>No mass at all in the next level.... but plenty of 'Non-mass'. Non-mass just sits there doing nothing & barely interacts with the Universe. Try using the number keys 1, 2, 3 to zoom the camera in order to get a wider view of the level.</LevelIntroText>
+  <LevelSuccessText>If it didn't cause Ship to explode on contact it would be a struggle to say non-mass actually IS anything at all. It is thought that Non-mass makes up the majority of the mass in the non-observable Universe. That's how much sense the Universe makes.</LevelSuccessText>
+  <Ship index="0" mass="0.1" type="98" xp="1560.3915499999996" yp="-963.55855" xd="-0.36012" yd="0.1695565000000002" depth="18"/>
+  <Wormhole index="1" mass="0.1" fixed="true" particle="false" xp="183.1659999999999" yp="-476.3461999999999" xd="0" yd="0" depth="0"/>
+  <NonMass index="2" radius="132.94969838722992" type="1" xp="369.2279999999999" yp="-586.9330500000001" depth="1"/>
+  <NonMass index="3" radius="50" type="3" xp="393.23599999999993" yp="-301.688" depth="2"/>
+  <NonMass index="4" radius="29.128252836026306" type="1" xp="219.1779999999999" yp="-316.693" depth="3"/>
+  <NonMass index="5" radius="50" type="16" xp="186.16699999999992" yp="-812.0080499999999" depth="4"/>
+  <NonMass index="6" radius="102.80726666753344" type="1" xp="-59.91500000000008" yp="-602.6883" depth="5"/>
+  <NonMass index="7" radius="95.20634595403456" type="1" xp="699.338" yp="-721.9780499999999" depth="6"/>
+  <NonMass index="8" radius="50" type="1" xp="459.2579999999999" yp="-73.61199999999997" depth="7"/>
+  <NonMass index="9" radius="50" type="16" xp="-98.92800000000013" yp="-310.69100000000003" depth="8"/>
+  <NonMass index="10" radius="50" type="1" xp="543.286" yp="-878.03005" depth="9"/>
+  <NonMass index="11" radius="50" type="1" xp="600.305" yp="-505.756" depth="10"/>
+  <NonMass index="12" radius="91.64710840574858" type="16" xp="615.31" yp="-322.84504999999984" depth="11"/>
+  <NonMass index="13" radius="146.77173447085417" type="3" xp="978.431" yp="-463.742" depth="12"/>
+  <NonMass index="14" radius="59.1696322908399" type="3" xp="39.11799999999994" yp="-406.723" depth="13"/>
+  <NonMass index="15" radius="27.602422222511144" type="16" xp="162.1589999999999" yp="-535.91605" depth="14"/>
+  <NonMass index="16" radius="130.6313556643752" type="16" xp="900.405" yp="-989.06705" depth="15"/>
+  <NonMass index="17" radius="128.51004884213276" type="1" xp="99.13799999999992" yp="-76.613" depth="16"/>
+  <NonMass index="18" radius="50" type="1" xp="360.2249999999999" yp="-794.7523" depth="17"/>
+</MassLevel>

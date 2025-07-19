@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<MassLevel>
+  <LevelName>Orbits</LevelName>
+  <LevelTimer>50</LevelTimer>
+  <Fuel>50</Fuel>
+  <LivesAdded>0</LivesAdded>
+  <LevelIntroText>When Newton invented his theory of gravity he also explained one of the greatest mysteries of all time. What causes the planets to orbit the Sun and the moon to orbit the Earth? He realised that  the same force that causes an apple to fall to the ground could explain orbits too.</LevelIntroText>
+  <LevelSuccessText>Top stuff ! There were two masses in that level, one much smaller than the other. Because the moon had some sideways motion it did not just fall into the Yellow Dwarf but instead found itself in an orbit.</LevelSuccessText>
+  <Ship index="0" mass="0.1" type="98" xp="-627.4125" yp="-278.9514" xd="1.1011" yd="-1.0005005000000002" depth="3"/>
+  <Wormhole index="1" mass="0.1" fixed="true" particle="false" xp="91.79170000000003" yp="94.99490000000004" xd="0" yd="0" depth="0"/>
+  <FreeMass index="2" mass="690.5341018702397" type="4" xp="-21.021" yp="-20.02" xd="0" yd="0" depth="1"/>
+  <FreeMass index="3" mass="23.31933638138308" type="8" xp="231.8764500000001" yp="97.57215000000006" xd="0.8996714999999997" yd="-1.6221465000000006" depth="2"/>
+</MassLevel>

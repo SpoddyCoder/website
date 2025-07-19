@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<MassLevel>
+  <LevelName>Inversely Proportional</LevelName>
+  <LevelTimer>120</LevelTimer>
+  <Fuel>100</Fuel>
+  <LivesAdded>0</LivesAdded>
+  <LevelIntroText>The final thing to know about Newtons gravity is an important lesson to you. The gravitational force gets weaker with distance... in fact it follows an inverse square law. As you close in on a mass not only does the gravitational force grow but it does so very quickly as you approach close.</LevelIntroText>
+  <LevelSuccessText>You've probably noticed by now that moving fast is a good way to overcome a high gravitationalfield. At times when it's hard to go fast, visualising how a marble rolls around a gravity well can help.</LevelSuccessText>
+  <GalaxySuccessText>Good job commander ! You are now ready to face the other galaxies in the Mass Universe.</GalaxySuccessText>
+  <Ship index="0" mass="0.1" type="98" xp="1370.0865" yp="719.4514000000001" xd="-0.54018" yd="-0.4906635000000007" depth="24"/>
+  <Wormhole index="1" mass="0.1" fixed="false" particle="false" xp="87.0011500000002" yp="-12.943249999999999" xd="0" yd="-2.6381719999999995" depth="0"/>
+  <FixedMass index="2" mass="602.9291152769299" type="6" xp="-86.10074999999999" yp="-20.259" depth="1"/>
+  <BarrierOrb index="3" linkedTo="5" type="7" xp="-1142.98255" yp="-42.95264999999996" depth="2"/>
+  <BarrierOrb index="4" linkedTo="10" type="7" xp="582.7425000000001" yp="648.1776500000001" depth="3"/>
+  <BarrierOrb index="5" linkedTo="12" type="7" xp="-674.5264500000001" yp="-736.1836500000001" depth="4"/>
+  <BarrierOrb index="6" linkedTo="7" type="7" xp="309.8015500000002" yp="-509.60815" depth="5"/>
+  <BarrierOrb index="7" linkedTo="8" type="7" xp="702.1823000000002" yp="-217.7609" depth="6"/>
+  <BarrierOrb index="8" linkedTo="4" type="7" xp="790.5617500000001" yp="360.8319000000001" depth="7"/>
+  <BarrierOrb index="9" linkedTo="6" type="7" xp="-516.2237" yp="-508.10765000000004" depth="8"/>
+  <BarrierOrb index="10" linkedTo="3" type="7" xp="-714.5898" yp="649.228" depth="9"/>
+  <BarrierOrb index="11" linkedTo="-1" type="7" xp="946.6454000000001" yp="-326.9973" depth="10"/>
+  <BarrierOrb index="12" linkedTo="11" type="7" xp="373.57280000000014" yp="-734.8332" depth="11"/>
+  <BarrierOrb index="13" linkedTo="14" type="7" xp="374.173" yp="406.147" depth="12"/>
+  <BarrierOrb index="14" linkedTo="15" type="7" xp="-553.136" yp="406.147" depth="13"/>
+  <BarrierOrb index="15" linkedTo="9" type="7" xp="-817.3740499999999" yp="-31.999000000000038" depth="14"/>
+  <BarrierOrb index="16" linkedTo="13" type="7" xp="512.219" yp="226.087" depth="15"/>
+  <BarrierOrb index="17" linkedTo="16" type="7" xp="455.2" yp="-113.02600000000005" depth="16"/>
+  <BarrierOrb index="18" linkedTo="19" type="7" xp="-385.0800000000001" yp="-293.23605000000003" depth="17"/>
+  <BarrierOrb index="19" linkedTo="17" type="7" xp="230.12499999999997" yp="-293.08600000000007" depth="18"/>
+  <BarrierOrb index="20" linkedTo="18" type="7" xp="-535.1300000000001" yp="-41.00200000000005" depth="19"/>
+  <BarrierOrb index="21" linkedTo="22" type="7" xp="311.152" yp="85.03999999999996" depth="20"/>
+  <BarrierOrb index="22" linkedTo="23" type="7" xp="218.12099999999998" yp="193.07599999999996" depth="21"/>
+  <BarrierOrb index="23" linkedTo="20" type="7" xp="-403.08600000000007" yp="193.07599999999996" depth="22"/>
+  <BarrierOrb index="24" linkedTo="11" type="7" xp="1095.495" yp="433.15599999999995" depth="23"/>
+</MassLevel>

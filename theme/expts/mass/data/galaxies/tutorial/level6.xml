@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<MassLevel>
+  <LevelName>Fixed In Space</LevelName>
+  <LevelTimer>120</LevelTimer>
+  <Fuel>50</Fuel>
+  <LivesAdded>0</LivesAdded>
+  <LevelIntroText>This level contains a weird new beast that Newton never envisioned - 'fixed-masses' exert the same gravitational force as their free-mass cousins but are fixed in space.</LevelIntroText>
+  <LevelSuccessText>Well done.You will also have noticed the 'energy barriers' in this level...... definitely to be avoided !</LevelSuccessText>
+  <Ship index="0" mass="0.1" type="98" xp="431.4316" yp="-1072.4099499999998" xd="0" yd="0.46032950000000006" depth="6"/>
+  <Wormhole index="1" mass="0.1" fixed="true" particle="false" xp="412.4106499999999" yp="-440.30779999999993" xd="0" yd="0" depth="0"/>
+  <FixedMass index="2" mass="250" type="11" xp="632.6709999999999" yp="-436.256" depth="1"/>
+  <FixedMass index="3" mass="250" type="11" xp="166.71399999999994" yp="-436.256" depth="3"/>
+  <FreeMass index="4" mass="108.93494726820823" type="4" xp="828.5079999999999" yp="-434.005" xd="-0.40518" yd="-1.5531899999999998" depth="2"/>
+  <BarrierOrb index="5" linkedTo="6" type="7" xp="600.0879999999997" yp="-549.1179999999999" depth="4"/>
+  <BarrierOrb index="6" linkedTo="-1" type="7" xp="197.85099999999977" yp="-549.1179999999999" depth="5"/>
+</MassLevel>

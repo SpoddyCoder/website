@@ -1,0 +1,124 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SpoddyCoder | &#8230;feed the geek</title>
+    <link href='https://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" media="all" href="theme/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+    <script src="theme/js/modernizr-2.5.3.min.js"></script>
+    <!--[if lt IE 9]>
+        <script src="theme/js/html5.js" type="text/javascript"></script>
+    <![endif]-->
+    <link rel='dns-prefetch' href='//s.w.org' />
+    <link rel="canonical" href="https://spoddycoder.com/wikipedia-philosophy.html" />
+    <link rel='shortlink' href='https://spoddycoder.com/wikipedia-philosophy.html' />
+</head>
+<body class="spoddy_experiment-template-default single single-spoddy_experiment postid-124">
+	<header>
+		<div id="header-inner">
+			<a href="index.html">
+				<span id="header-logo">
+					<img id="header-logo-image" src="theme/images/logo.png" alt="spoddycoder glasses" />
+					<span id="header-logo-text"><h1><span class="spoddy">Spoddy</span><span class="coder">Coder</span> <span class="feedthegeek">&hellip;feed the geek</span></h1></span>
+				</span>
+			</a>
+			<div class="menu"><ul>
+                <li class="page_item page-item-5"><a href="index.html" aria-current="page">Home</a></li>
+                <li class="page_item page-item-7"><a href="blog.html">Blog</a></li>
+                <li class="page_item page-item-9"><a href="music.html">Music</a></li>
+                <li class="page_item page-item-11"><a href="random.html">Random</a></li>
+            </ul></div>
+		</div>
+	</header>
+
+	<div role="main" id="content">
+        <section class="experiment-description" id="experiment-description-wikipedia-philosophy">		
+            <h2>Wikipedia Philosophy</h2>
+            <p>I&#8217;ve been intrigued by a little game doing the rounds on the interwebs recently &#8211; if you pick a random <a href="https://wikipedia.org">wikipedia</a> article and click the first link (not italicised or in brackets) and repeat, you will eventually end up at <a href="https://en.wikipedia.org/wiki/Philosophy">Philosophy</a>. It resonates with me somehow &#8211; pick any subject and do the innocently insightful kid thing of keep asking why (what, where, when, who etc.) and eventually you end up thinking about the nature of human thought.</p>
+            <p>Often scientists are quick to deride Philosophy as pseudo-science or in worst cases utterly useless (such as the increasingly annoying <a href="https://www.youtube.com/watch?v=30ruBtLIvJM">Prof Brian Cox</a>) &#8211; this is a stance that I couldn&#8217;t disagree with more. For me Philosophy underpins science and is the roots from which it grew &#8211; Aristotle, considered the father of the scientific method, was one of the early Philosophers and even as late as the 16th Century the two disciplines were largely indistinguishable. It&#8217;s importance is brought into sharper focus when you find that a leading knowledge repository in the modern world, wikipedia, shows that Philosophy is the base of all knowledge &#8211; and it&#8217;s not something that was deliberately engineered to be the case, it&#8217;s just an emergent property of the tool. Cool.</p>
+            <p>In true spoddycoder style I couldn&#8217;t help but build a little toy that uses the wikipedia API and some screen scraping to do the hard linky clicking for you. Now you can answer those vexxing pub questions &#8211; how far is art from Philosophy? Answer, just 12 hops. How far is golf from Philosophy? Further than art it seems at 22 hops. What about fellatio, how far is that from Philosophy? Surprisingly only 16 hops &#8230;and what that means is up to you. The Press? Shoes? Poo? Go on, have a go yourself&#8230;</p>
+        </section>
+        <div id="wiki-philosophy-input">
+            <input id="wiki-philosophy-search-term" type="text"/><button id="wiki-philosophy-search-go" style="font: bold 14px Arial;" onclick="wikiPhilosophy.startSearch();">... how far from Philosophy?</button></div>
+            <div id="wiki-philosophy-hops" style="margin-top:10px;"></div>
+            <div id="wiki-philosophy-output" style="margin-top:10px; margin-bottom:20px;"></div>        
+            <p>For those interested, the origin of this idea appears to be <a href="https://www.reddit.com/r/pics/comments/gpdhb/try_thiswikipedia_mindfk/">this Reddit post</a>. Of course I'm not the first spoddycoder to have done this, there are some great examples out there including <a href="http://www.xefer.com/wikipedia">this superb one by xefer</a> which visualises the connections in a great way.</p>
+
+            <script type="text/javascript">
+            var wikiPhilosophy = {
+                
+                hops: [],
+                
+                startSearch: function() {
+                    var searchTerm = jQuery('#wiki-philosophy-search-term').val();
+                    jQuery('#wiki-philosophy-output').html('');
+                    this.hops = [];
+                    jQuery.getJSON("//en.wikipedia.org/w/api.php?callback=?", 
+                        {
+                            titles: searchTerm,
+                            action: "query",
+                            prop: "revisions",
+                            rvprop: "content",
+                            format: "json"
+                        },
+                        function(data) {
+                            var page = data.query.pages;
+                            for(i in page) {
+                                var title = page[i].title;
+                                title = title.replace(" ", "_");
+                                wikiPhilosophy.mainLoop(title);
+                            }
+                        }
+                    );
+                    
+                },
+                
+                getNextLink: function(link) {
+                    jQuery.ajax({
+                        url: 'theme/expts/wikipedia-philosophy/wikiAjaxHandler.php?link=' + link,
+                        type: 'GET',
+                        success: function(data) {
+                            wikiPhilosophy.mainLoop(data);
+                        }
+                    });
+                },
+                
+                mainLoop: function(link) {
+                    this.hops.push(link);
+                    var html = '<span class="wikiphilosophy-hop-link"><a href="http://en.wikipedia.org/wiki/' + link + '" target="_blank">' + link + '</a></span>';
+                    jQuery('#wiki-philosophy-output').append(html);
+                    jQuery('#wiki-philosophy-hops').html((this.hops.length - 1) + ' hops so far...');
+                    if(link == 'Philosophy') {
+                        // stop
+                        jQuery('#wiki-philosophy-hops').html('<strong>Answer: ' + (this.hops.length - 1) + ' hops.</strong>');
+                    } else if(this.hops.length <= 50) {
+                        html = '<span class="wiki-philosophy-hop-delimitter"> >> </span>';
+                        jQuery('#wiki-philosophy-output').append(html);
+                        this.getNextLink(link);
+                    } else {
+                        jQuery('#wiki-philosophy-output').append('<br/>Oh dear I should probably stop - it looks like you have found one of the loops.<br/>');
+                    }
+                }
+                
+            };
+            </script>
+            <p class="experiment-technologies">Tech: JavaScript, PHP</p>
+        </div>
+	<footer>
+		<p><span class="spoddy">Spoddy</span></span><span class="coder">Coder</span>.com &copy;2021 Paul Fernihough</p>
+	</footer>
+	
+	<script>
+		var _gaq=[['_setAccount','UA-24402222-1'],['_trackPageview']];
+		(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+		g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+		s.parentNode.insertBefore(g,s)}(document,'script'));
+	</script>
+	
+</body>
+</html>

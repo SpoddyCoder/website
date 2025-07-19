@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<MassLevel>
+  <LevelName>Level Eight</LevelName>
+  <LevelTimer>120</LevelTimer>
+  <Fuel>50</Fuel>
+  <LevelIntroText>The final push...</LevelIntroText>
+  <LevelSuccessText>This is the end of the line...</LevelSuccessText>
+  <GalaxySuccessText>Good job commander ! Currently there is only the easy galaxy - if you want to create a level for the tricky galaxy please send them to paul@spoddycoder.com</GalaxySuccessText>
+  <Ship index="0" mass="0.1" type="98" xp="668.9899999999998" yp="749.2899999999998" xd="0.7744299999999998" yd="0.008104499999999796" depth="35"/>
+  <Wormhole index="1" mass="0.1" fixed="false" particle="false" xp="188.29455000000013" yp="65.7365" xd="-0.46826000000000007" yd="2.01712" depth="0"/>
+  <BarrierOrb index="2" linkedTo="3" type="7" xp="-163.44075" yp="-69.69869999999999" depth="1"/>
+  <BarrierOrb index="3" linkedTo="4" type="7" xp="9.365200000000083" yp="-140.20785" depth="3"/>
+  <BarrierOrb index="4" linkedTo="5" type="7" xp="179.5597000000001" yp="-114.36350000000002" depth="4"/>
+  <BarrierOrb index="5" linkedTo="9" type="7" xp="259.07385000000005" yp="14.94830000000002" depth="5"/>
+  <BarrierOrb index="6" linkedTo="10" type="7" xp="-174.697" yp="57.632000000000005" depth="6"/>
+  <BarrierOrb index="7" linkedTo="6" type="7" xp="-52.229000000000006" yp="171.09500000000003" depth="7"/>
+  <BarrierOrb index="8" linkedTo="7" type="7" xp="104.458" yp="203.513" depth="8"/>
+  <BarrierOrb index="9" linkedTo="8" type="7" xp="226.926" yp="156.687" depth="9"/>
+  <BarrierOrb index="10" linkedTo="-1" type="7" xp="-562.0020499999999" yp="104.458" depth="10"/>
+  <BarrierOrb index="11" linkedTo="2" type="7" xp="-545.79305" yp="-136.876" depth="11"/>
+  <FixedMass index="12" mass="330.71098718000667" type="11" xp="70.239" yp="32.418000000000006" depth="2"/>
+  <ParticleMass index="13" radius="50" type="19" xp="-105.45000000000022" yp="15.549999999999969" xd="-0.14" yd="1.88" depth="12"/>
+  <NonMass index="14" radius="248.0721023280122" type="1" xp="445.64999999999964" yp="375.1499999999999" depth="13"/>
+  <NonMass index="15" radius="181.50637065121356" type="3" xp="-813.9600000000002" yp="-46.18000000000005" depth="14"/>
+  <NonMass index="16" radius="34.882958904243374" type="1" xp="738.4499999999997" yp="-72.05000000000003" depth="15"/>
+  <NonMass index="17" radius="69.80983648648831" type="1" xp="777.4499999999997" yp="52.74999999999997" depth="16"/>
+  <NonMass index="18" radius="50" type="1" xp="990.6499999999997" yp="-126.65000000000002" depth="17"/>
+  <NonMass index="19" radius="50" type="1" xp="839.8499999999997" yp="185.34999999999997" depth="18"/>
+  <NonMass index="20" radius="79.69999999999999" type="1" xp="-215.75000000000023" yp="-493.51" depth="19"/>
+  <NonMass index="21" radius="50" type="1" xp="829.4499999999997" yp="-217.65000000000003" depth="20"/>
+  <NonMass index="22" radius="97.20074626605917" type="1" xp="436.84999999999974" yp="-277.45000000000005" depth="21"/>
+  <NonMass index="23" radius="50" type="1" xp="257.44999999999976" yp="-438.65000000000003" depth="22"/>
+  <NonMass index="24" radius="50" type="1" xp="62.44999999999982" yp="-399.65000000000003" depth="23"/>
+  <NonMass index="25" radius="50" type="1" xp="564.2499999999998" yp="-176.05" depth="24"/>
+  <NonMass index="26" radius="50" type="1" xp="-642.2300000000001" yp="-391.85" depth="25"/>
+  <NonMass index="27" radius="50" type="1" xp="36.36999999999986" yp="-569.04" depth="26"/>
+  <NonMass index="28" radius="50" type="1" xp="714.9699999999998" yp="-321.65000000000003" depth="27"/>
+  <NonMass index="29" radius="50" type="1" xp="548.5699999999998" yp="-467.25" depth="28"/>
+  <NonMass index="30" radius="50" type="1" xp="-233.95000000000027" yp="-296.03999999999996" depth="29"/>
+  <NonMass index="31" radius="50" type="16" xp="-119.55000000000018" yp="-350.25" depth="30"/>
+  <NonMass index="32" radius="32.32493354985923" type="16" xp="176.8499999999998" yp="-300.85" depth="31"/>
+  <NonMass index="33" radius="60.7276466454243" type="16" xp="982.8499999999997" yp="322.24" depth="32"/>
+  <NonMass index="34" radius="50" type="1" xp="-434.7500000000002" yp="-418.11" depth="33"/>
+  <NonMass index="35" radius="50" type="1" xp="-637.5500000000002" yp="117.74999999999997" depth="34"/>
+</MassLevel>

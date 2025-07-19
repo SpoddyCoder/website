@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<MassLevel>
+  <LevelName>Feeling Force</LevelName>
+  <LevelTimer>20</LevelTimer>
+  <Fuel>50</Fuel>
+  <LivesAdded/>
+  <LevelIntroText>According to the great English mathematician Isaac Newton objects that have mass exert an attractive force on other masses. He called this force gravity.</LevelIntroText>
+  <LevelSuccessText>Nice one! That was tricky in the time limit available. Did you feel the Yellow Dwarf star pull you in? Larger masses give rise to a larger force as you may expect. But this is not the whole story...</LevelSuccessText>
+  <Ship index="0" mass="0.1" type="98" xp="-809.41715" yp="409.0536000000001" xd="0.032393500000000026" yd="-0.03502" depth="2"/>
+  <Wormhole index="1" mass="0.1" fixed="true" particle="false" xp="374.0737" yp="-156.25609999999998" xd="0" yd="0" depth="0"/>
+  <FreeMass index="2" mass="770.6342236376249" type="4" xp="27.748450000000176" yp="20.00924999999998" xd="0" yd="0" depth="1"/>
+</MassLevel>

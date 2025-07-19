@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<MassLevel>
+  <LevelName>Am I Dense?</LevelName>
+  <LevelTimer>20</LevelTimer>
+  <Fuel>50</Fuel>
+  <LivesAdded/>
+  <LevelIntroText>Mass is not just a measure of how big something is, there is another factor in play. Density. The Nuetron Star in the next level is the same size as the last levels' Yellow Dwarf, but has a much higher density and consequently a much larger mass.</LevelIntroText>
+  <LevelSuccessText>Well played!  Dense objects are more dangerous and you will need more speed to avoid being dragged in by their powerful gravitational force.</LevelSuccessText>
+  <Ship index="0" mass="0.1" type="98" xp="-809.41715" yp="409.0536000000001" xd="0.032393500000000026" yd="-0.03502" depth="2"/>
+  <Wormhole index="1" mass="0.1" fixed="true" particle="false" xp="374.0737" yp="-156.25609999999998" xd="0" yd="0" depth="0"/>
+  <FreeMass index="2" mass="3853.171118188124" type="5" xp="27.748450000000176" yp="20.00924999999998" xd="0" yd="0" depth="1"/>
+</MassLevel>

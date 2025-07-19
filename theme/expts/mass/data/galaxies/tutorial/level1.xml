@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<MassLevel>
+  <LevelName>Basic Controls</LevelName>
+  <LevelTimer>50</LevelTimer>
+  <Fuel>100</Fuel>
+  <LivesAdded>100</LivesAdded>
+  <LevelIntroText>Take it easy here, just find the wormhole using your ship controls: UP, DOWN, LEFT and RIGHT. The yellow marker will help.</LevelIntroText>
+  <LevelSuccessText>Well done. Did you notice that using the gravity brake uses a lot more fuel than just thrusting? Be aware of this in later levels with lower fuel.</LevelSuccessText>
+  <Ship index="0" mass="0.1" type="98" xp="-460.5545999999999" yp="-69.10569999999997" xd="0.3590344999999997" yd="-0.09004" depth="1"/>
+  <Wormhole index="1" mass="0.1" fixed="false" particle="false" xp="1422.7445500000003" yp="597.9781499999999" xd="0" yd="0" depth="0"/>
+</MassLevel>
